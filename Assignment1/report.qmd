@@ -1,0 +1,57 @@
+# Report - Problem Statement
+
+## The Problem to Be Solved
+
+[Provide a concise description of the problem you are addressing.]
+
+## The Relevance of the Problem
+
+[Explain why the problem is relevant, including any real-world implications.]
+
+## The Plan to Solve the Problem
+
+[Outline your plan to address and solve the problem. Mention any specific goals or milestones.]
+
+## Justification for a DL Solution
+
+[Explain why a deep learning (DL) solution is necessary or beneficial for solving this problem.]
+
+# Report - Data
+
+## Describing the Data
+
+[Describe the dataset you are working with, including its features, size, and any other relevant information. Summarize key findings from exploratory data analysis (EDA).]
+
+# Report - Methods (Preprocessing)
+
+## Preprocessing and Augmentation
+
+[Detail the steps taken to preprocess the data before inputting it into the model. Include any data augmentation techniques applied.]
+
+# Report - Methods (Model)
+
+## Describing the Model and Parameters
+
+[Describe the deep learning model used, including its architecture and any specific parameters chosen. Explain the rationale behind these choices.]
+
+# Report - Results
+
+## Description of Results/Metrics/Validation
+
+[Provide an overview of the results obtained, including relevant metrics and validation performance.]
+
+# Report - Plots/Figures
+
+## Model Performance Figure
+
+[Include a figure or plot illustrating the performance of the model. This could be a graph of accuracy, loss, or any other relevant metric.]
+
+# Report - Discussion/Results
+
+## Discussing Performance Metrics
+
+[Discuss the performance metrics in relation to the problem. Explain how changing parameters affected performance and mention any insights gained. Evaluate whether the model is effective.]
+
+## Future Works and Lessons Learned
+
+[Discuss potential future improvements or extensions to the model. Summarize key takeaways and lessons learned from completing the assignment.]
