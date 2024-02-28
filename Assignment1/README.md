@@ -7,7 +7,6 @@
 * Student ID: 2377792
 * Course: CPSC 542 - Deep Learning and Computer Vision
 * Date: Spring 2024
-* Assignment: Database
 
 ## In-class Collaborators
 
