@@ -1,3 +1,6 @@
+# NOTE - Refer to 'Code' folder for all python files
+## RandomForest.py and CNN.py self-contained models that run separately
+
 ## Information
 
 * Name: Noah Fuery
