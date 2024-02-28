@@ -27,3 +27,4 @@ print(f"Validation Accuracy: {accuracy}")
 y_test_pred = clf.predict(x_test)
 test_accuracy = accuracy_score(y_test, y_test_pred)
 print(f"Test Accuracy: {test_accuracy}")
+
