@@ -44,15 +44,15 @@ print("Splitting data into train, validation, and test sets...")
 X_train, X_rest, y_train, y_rest = train_test_split(X, y, test_size=0.3, random_state=42)
 X_val, X_test, y_val, y_test = train_test_split(X_rest, y_rest, test_size=0.5, random_state=42)
 
-# # Model Training
-# print("Training random forest classifier...")
-# rf_classifier = RandomForestClassifier(n_estimators=1)
-# rf_classifier.fit(X_train, y_train)
+# Model Training
+print("Training random forest classifier...")
+rf_classifier = RandomForestClassifier(n_estimators=1)
+rf_classifier.fit(X_train, y_train)
 
-# # Save the trained model
-# model_file_path = "/app/rundir/RF.joblib"
-# dump(rf_classifier, model_file_path)
-# print("Trained model saved successfully to:", model_file_path)
+# Save the trained model
+model_file_path = "/app/rundir/RF.joblib"
+dump(rf_classifier, model_file_path)
+print("Trained model saved successfully to:", model_file_path)
 
 # Load the trained model
 model_file_path = "/app/rundir/model.joblib"
@@ -72,11 +72,7 @@ report = classification_report(y_val_flat, y_val_pred_flat)
 print("Validation Accuracy:", accuracy)
 print("Classification Report:\n", report)
 
-# Prediction and Visualization (if needed)
-# You can add visualization code here if desired
-
-# Optionally, you can load the trained model back later
-
+# Prediction and Visualization
 def save_predictions(images, masks, predicted_masks, output_dir):
     os.makedirs(output_dir, exist_ok=True)
     
